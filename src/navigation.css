@@ -1,0 +1,10 @@
+.bg-blur {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    background-color: gray;
+}
+
+.navbar-nav .nav-link {
+    font-size: large;
+    font-weight: bold;
+  }
