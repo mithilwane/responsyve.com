@@ -3,11 +3,6 @@ import React from 'react';
 import Navigation from '../../navigation';
 import './common.css';
 import { Carousel } from 'react-bootstrap';
-import appdevlogo from '../../assets/AppDev.svg'
-import webdevlogo from '../../assets/WebDev.svg'
-import clouddevlogo from '../../assets/CloudDev.svg'
-import iotdevlogo from '../../assets/IotDev.svg'
-
 
 const Home: React.FC = () => {
   return (
@@ -17,7 +12,7 @@ const Home: React.FC = () => {
         <div>  
           <Carousel>
           <Carousel.Item>
-          <img src={appdevlogo}
+          <img src={process.env.PUBLIC_URL + '/AppDev.svg'}
               height='600px'
               width='600px'
               className="d-block w-100"
@@ -27,7 +22,7 @@ const Home: React.FC = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img src={webdevlogo}
+          <img src={process.env.PUBLIC_URL + '/WebDev.svg'}
               height='600px'
               width='600px'
               className="d-block w-100"
@@ -37,7 +32,7 @@ const Home: React.FC = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img src={clouddevlogo}
+          <img src={process.env.PUBLIC_URL + '/CloudDev.svg'}
               height='600px'
               width='600px'
               className="d-block w-100"
@@ -47,7 +42,7 @@ const Home: React.FC = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img src={iotdevlogo}
+          <img src={process.env.PUBLIC_URL + '/IotDev.svg'}
               height='600px'
               width='600px'
               className="d-block w-100"
