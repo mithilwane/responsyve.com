@@ -3,6 +3,7 @@ import React from 'react';
 import Navigation from '../../navigation';
 import './common.css';
 import { Card } from 'react-bootstrap';
+import resImg from '../../assets/ResponsiveImg.svg';
 
 const About: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const About: React.FC = () => {
       <div className='base-page'>
       <div className='d-flex align-items-center justify-content-center vh-75'>  
         <Card>
-        <Card.Img variant="top" src={process.env.PUBLIC_URL + '/ResponsiveImg.svg'} />
+        <Card.Img variant="top" src={resImg} />
           <Card.Body>
             <Card.Title>
               Adapt To Change
