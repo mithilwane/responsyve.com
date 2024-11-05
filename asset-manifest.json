@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.1fb0a2fb.css",
-    "main.js": "./static/js/main.87e95725.js",
-    "static/js/453.c6a8b0a5.chunk.js": "./static/js/453.c6a8b0a5.chunk.js",
-    "static/media/background.jpg": "./static/media/background.c05d7d5186333179b524.jpg",
-    "static/media/Logo-removebg.png": "./static/media/Logo-removebg.e204694c58ddc8c979d1.png",
-    "index.html": "./index.html",
-    "main.1fb0a2fb.css.map": "./static/css/main.1fb0a2fb.css.map",
-    "main.87e95725.js.map": "./static/js/main.87e95725.js.map",
-    "453.c6a8b0a5.chunk.js.map": "./static/js/453.c6a8b0a5.chunk.js.map"
+    "main.css": "/responsyve.com/static/css/main.ca5f1dd9.css",
+    "main.js": "/responsyve.com/static/js/main.8c2c527c.js",
+    "static/js/453.c6a8b0a5.chunk.js": "/responsyve.com/static/js/453.c6a8b0a5.chunk.js",
+    "static/media/background.jpg": "/responsyve.com/static/media/background.c05d7d5186333179b524.jpg",
+    "static/media/Logo-removebg.png": "/responsyve.com/static/media/Logo-removebg.e204694c58ddc8c979d1.png",
+    "index.html": "/responsyve.com/index.html",
+    "main.ca5f1dd9.css.map": "/responsyve.com/static/css/main.ca5f1dd9.css.map",
+    "main.8c2c527c.js.map": "/responsyve.com/static/js/main.8c2c527c.js.map",
+    "453.c6a8b0a5.chunk.js.map": "/responsyve.com/static/js/453.c6a8b0a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb0a2fb.css",
-    "static/js/main.87e95725.js"
+    "static/css/main.ca5f1dd9.css",
+    "static/js/main.8c2c527c.js"
   ]
 }
