@@ -10,6 +10,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => emailjs.init("nxekFQhMkOx8IFnvc"), []);
+  useEffect(() => { document.title = "Responsyve Services LLP" }, []);
   return (    
     <div>
       <HashRouter>
